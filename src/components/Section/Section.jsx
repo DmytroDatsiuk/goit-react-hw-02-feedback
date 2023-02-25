@@ -8,7 +8,7 @@ export const Section = ({ title, children }) => (
   </Secti>
 );
 
-Section.prototype = {
+Section.propTypes = {
   title: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
 };
